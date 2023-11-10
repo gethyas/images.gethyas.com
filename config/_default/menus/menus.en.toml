@@ -35,6 +35,11 @@
   weight = 10
 
 [[main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 15
+
+[[main]]
   name = "Discussions"
   url = "https://github.com/orgs/gethyas/discussions"
   post = "$"
