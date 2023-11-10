@@ -25,3 +25,14 @@ Show a blog post cover image to your [blog list](/blog/) and [blog post](/blog/e
 ```bash
 cover-vincent-van-zalinge-XJO99LpVHnU-unsplash.jpg
 ```
+
+## Settings
+
+Change default settings in `config/_default/params.toml`:
+
+```toml
+  # Blog
+  relatedPosts = false # false (default) or true
+  imageList = true # true (default) or false
+  imageSingle = true # true (default) or false
+```
