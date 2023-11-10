@@ -43,6 +43,8 @@ module.exports = {
         'img-fluid',
         'blur-up',
         'lazyloaded',
+        'showing',
+        'hiding',
         ...whitelister([
           './assets/scss/**/*.css',
           './assets/scss/**/*.scss',
