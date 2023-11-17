@@ -1,14 +1,14 @@
 // Put your custom SCSS code here
 
 .navbar-brand svg {
-  width: 110px;
+  width: 100px;
   height: 100%;
   margin-right: 0;
 }
 
 @include media-breakpoint-up(lg) {
   .navbar-brand svg {
-    width: 120px;
+    width: 110px;
     height: 100%;
   }
 }
