@@ -30,6 +30,7 @@ module.exports = {
         'id',
         'size',
         'type',
+        'aria-selected',
       ],
       safelist: [
         'active',
@@ -45,8 +46,9 @@ module.exports = {
         'lazyloaded',
         'showing',
         'hiding',
+        'DocSearch-Dropdown-Container',
         ...whitelister([
-          './assets/scss/**/*.css',
+          // './assets/scss/**/*.css',
           './assets/scss/**/*.scss',
           './node_modules/@hyas/doks-core/assets/scss/common/_syntax.scss',
           './node_modules/@docsearch/css/dist/modal.css',
