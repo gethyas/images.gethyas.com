@@ -1,3 +1,6 @@
+{{ if site.Params.gethyas_com.docSearch -}}
+  <link rel="preconnect" href="https://AHKXAT87MO-dsn.algolia.net" crossorigin />
+{{ end -}}
 {{ if site.Params.doks.katex -}}
   <link rel="preload" href="{{ "fonts/KaTeX_Main-Regular.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ "fonts/KaTeX_Math-Italic.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>

@@ -3,6 +3,12 @@ title = "My Docs"
 description = "Congrats on setting up a new Doks project!"
 images = ["cover.png"]
 
+# gethyas.com
+[gethyas_com]
+  docSearch = true # false (default) or true
+  plausibleAnalytics = false # false (default) or true
+  keila = false # false (default) or true
+
 # Doks (@hyas/doks-core)
 [doks]
   # Color mode
@@ -19,7 +25,7 @@ images = ["cover.png"]
   navBarButtonText = "Get started"
 
   # FlexSearch
-  flexSearch = true # true (default) or false
+  flexSearch = false # true (default) or false
   searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
   searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
   showSearch = [] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
@@ -35,7 +41,7 @@ images = ["cover.png"]
   alertDismissable = true # true (default) or false
 
   # Bootstrap
-  bootstrapJavascript = false # false (default) or true
+  bootstrapJavascript = true # false (default) or true
 
   # Nav
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
