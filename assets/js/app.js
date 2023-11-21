@@ -16,6 +16,9 @@ import 'js/tabs.js';
 // Import custom.js
 import 'js/custom.js';
 
+// Import plausible.js
+import 'js/plausible.js';
+
 /*
 import * as params from '@params';
 

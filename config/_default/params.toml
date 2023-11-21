@@ -3,10 +3,10 @@ title = "My Docs"
 description = "Congrats on setting up a new Doks project!"
 images = ["cover.png"]
 
-# gethyas.com
-[gethyas_com]
+# Add-ons
+[add_ons]
   docSearch = true # false (default) or true
-  plausibleAnalytics = false # false (default) or true
+  plausibleDomain = "images.gethyas.com" # "example.com" (default)
   keila = false # false (default) or true
 
 # Doks (@hyas/doks-core)
