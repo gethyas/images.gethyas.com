@@ -3,8 +3,7 @@
   {{ partial "footer/esbuild" (dict "src" "js/bootstrap.js" "load" "async" "transpile" false) -}}
 {{- end }}
 
-{{ $plausibleDomain := site.Params.add_ons.plausibleDomain -}}
-{{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "async" "transpile" false "params" (dict "plausibleDomain" $plausibleDomain)) -}}
+{{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "async" "transpile" false) -}}
 
 {{ partial "footer/script-footer-custom.html" . -}}
 

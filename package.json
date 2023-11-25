@@ -27,8 +27,7 @@
   "dependencies": {
     "@docsearch/css": "^3.5.2",
     "@docsearch/js": "^3.5.2",
-    "@hyas/doks-core": "^1.1.1",
-    "plausible-tracker": "^0.3.8"
+    "@hyas/doks-core": "^1.1.1"
   },
   "engines": {
     "node": ">=16.12.0",

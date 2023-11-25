@@ -14,9 +14,6 @@ dependencies:
   '@hyas/doks-core':
     specifier: ^1.1.1
     version: 1.1.1(react-dom@16.14.0)(react@16.14.0)
-  plausible-tracker:
-    specifier: ^0.3.8
-    version: 0.3.8
 
 packages:
 
@@ -3705,11 +3702,6 @@ packages:
   /pinkie@2.0.4:
     resolution: {integrity: sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==}
     engines: {node: '>=0.10.0'}
-    dev: false
-
-  /plausible-tracker@0.3.8:
-    resolution: {integrity: sha512-lmOWYQ7s9KOUJ1R+YTOR3HrjdbxIS2Z4de0P/Jx2dQPteznJl2eX3tXxKClpvbfyGP59B5bbhW8ftN59HbbFSg==}
-    engines: {node: '>=10'}
     dev: false
 
   /portfinder@1.0.32:
