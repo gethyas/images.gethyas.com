@@ -1,15 +1,15 @@
 ---
-title: "Picture Partial"
+title: "figure"
 description: ""
 summary: ""
-date: 2023-11-10T19:46:06+01:00
-lastmod: 2023-11-10T19:46:06+01:00
+date: 2023-11-28T14:23:54+01:00
+lastmod: 2023-11-28T14:23:54+01:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "picture-partial-9565941a50ff340e7ef377f664b31a68"
-weight: 930
+    identifier: "figure-a7c13068a48ac176b6f080661f8d52cd"
+weight: 926
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -18,21 +18,23 @@ seo:
   noindex: false # false (default) or true
 ---
 
+This reference guide describes the [figure](/docs/guides/partials/figure/) partial arguments.
+
 ## Arguments
 
 The `src` and `page` arguments are required.
 
 ### alt
-(`string`) The `img` element's `alt` attribute.
+(`string`) The `figure` element's `alt` attribute.
 
 ### class
-(`string`) The img element's `class` attribute.
+(`string`) The figure element's `class` attribute.
 
 ### formats
 (`string slice`) A slice of image formats, ordered by precedence, to use when creating images for the `srcset` attribute of each `source` element.
 
 ### loading
-(`string`) The `img` element's `loading` attribute. Default is `lazy`.
+(`string`) The `figure` element's `loading` attribute. Default is `lazy`.
 
 ### overlay
 (`string`) The path to the overlay image: a page resource, a global resource, or a remote resource.
@@ -53,7 +55,10 @@ The `src` and `page` arguments are required.
 (`string`) The path to the base image: a page resource, a global resource, or a remote resource.
 
 ### title
-(`string`) The `img` element's `title` attribute.
+(`string`) The `figure` element's `title` attribute.
 
 ### width
 (`int`) The display width of the image, in pixels, falling back to 100% of the viewport width.
+
+### caption
+(`string`) The `figure` element's `figcaption` attribute.

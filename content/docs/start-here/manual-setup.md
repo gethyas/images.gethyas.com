@@ -80,6 +80,7 @@ Add CSS class selectors to `./assets/scss/components/_images.scss`:
 img[data-sizes="auto"] {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 .figure {

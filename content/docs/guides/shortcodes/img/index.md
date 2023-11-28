@@ -1,5 +1,5 @@
 ---
-title: "<img>"
+title: "img"
 description: ""
 summary: ""
 date: 2023-11-09T16:44:55+01:00

@@ -1,5 +1,5 @@
 ---
-title: "<picture>"
+title: "picture"
 description: ""
 summary: ""
 date: 2023-11-09T16:50:56+01:00
@@ -23,26 +23,25 @@ seo:
 ### Required arguments only
 
 ```html
-{{- partial "picture.html" (dict "page" . "src" "images/zion.jpg") }}
+{{- partial "picture" (dict "page" . "src" "images/vincent-van-zalinge-IicWDdQUfsQ-unsplash.jpg") }}
 ```
 
 ### All arguments
 
 ```html
 {{- $opts := dict
-  "alt" "Bryce Canyon National Park"
+  "alt" "A close-up of a butterfly on a rope"
   "class" "foo"
   "formats" (slice "webp" "jpeg")
   "loading" "eager"
-  "overlay" "images/logo.png"
+  "overlay" "images/logo-unsplash.png"
   "overlayAnchor" "bottomright"
-  "overlayPadding" 0.02
-  "overlayWidth" 0.25
+  "overlayPadding" 0.0375
+  "overlayWidth" 0.050
   "page" .
-  "src" "images/bryce-canyon-national-park.jpg"
-  "title" "A beautiful day in Bryce Canyon National Park"
-  "title" "A beautiful day in Bryce Canyon National Park"
+  "src" "images/vincent-van-zalinge-IicWDdQUfsQ-unsplash.jpg"
+  "title" "A close-up of a butterfly on a rope"
   "width" 768
 }}
-{{- partial "picture.html" $opts }}
+{{- partial "picture" $opts }}
 ```

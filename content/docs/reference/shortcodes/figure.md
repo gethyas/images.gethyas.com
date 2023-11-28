@@ -1,15 +1,15 @@
 ---
-title: "Picture Shortcode"
+title: "figure"
 description: ""
 summary: ""
-date: 2023-11-10T19:45:58+01:00
-lastmod: 2023-11-10T19:45:58+01:00
+date: 2023-11-28T14:23:43+01:00
+lastmod: 2023-11-28T14:23:43+01:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "picture-shortcode-1376df46b3aac933c8bdabf0fa2efe0a"
-weight: 920
+    identifier: "figure-d6d8664a7203fc8681a006a8fccb5117"
+weight: 916
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -18,21 +18,23 @@ seo:
   noindex: false # false (default) or true
 ---
 
+This reference guide describes the [figure](/docs/guides/shortcodes/figure/) shortcode arguments.
+
 ## Arguments
 
 The `src` argument is required; others are optional.
 
 ### alt
-(`string`) The `img` element's `alt` attribute.
+(`string`) The `figure` element's `alt` attribute.
 
 ### class
-(`string`) The img element's `class` attribute.
+(`string`) The figure element's `class` attribute.
 
 ### formats
 (`string`) A comma- or space-delimited list of image formats, ordered by precedence, to use when creating images for the `srcset` attribute of each `source` element.
 
 ### loading
-(`string`) The `img` element's `loading` attribute. Default is `lazy`.
+(`string`) The `figure` element's `loading` attribute. Default is `lazy`.
 
 ### overlay
 (`string`) The path to the overlay image: a page resource, a global resource, or a remote resource.
@@ -50,7 +52,10 @@ The `src` argument is required; others are optional.
 (`string`) The path to the base image: a page resource, a global resource, or a remote resource.
 
 ### title
-(`string`) The `img` element's `title` attribute.
+(`string`) The `figure` element's `title` attribute.
 
 ### width
 (`int`) The display width of the image, in pixels, falling back to 100% of the viewport width.
+
+### caption
+(`string`) The `figure` element's `figcaption` attribute.
