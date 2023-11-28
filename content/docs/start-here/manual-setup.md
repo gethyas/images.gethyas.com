@@ -18,7 +18,46 @@ seo:
   noindex: false # false (default) or true
 ---
 
-## Mounts
+If you want to add Images to an existing Hyas project, this guide will explain how.
+
+
+## Set up Images
+
+To follow this guide, you'll need an existing Hyas project.
+
+### Add the Images integration
+
+Doks is a [Hyas integration](https://docs.gethyas.com/guides/integrations/). Add it to your site by running the following command in your project’s root directory:
+
+{{< tabs "install-images" >}}
+{{< tab "npm" >}}
+
+```bash
+npm install @hyas/images@latest
+```
+
+{{< /tab >}}
+{{< tab "pnpm" >}}
+
+```bash
+pnpm install @hyas/images@latest
+```
+
+{{< /tab >}}
+{{< tab "Yarn" >}}
+
+```bash
+yarn add @hyas/images@latest
+```
+
+{{< /tab >}}
+{{< /tabs >}}
+
+This will install the required dependencies.
+
+### Configure the integration
+
+#### Update mounts
 
 Add mounts to `./config/_default/module.toml`:
 
@@ -42,9 +81,9 @@ Add mounts to `./config/_default/module.toml`:
   target = "layouts"
 ```
 
-## Parameters
+#### Add parameters
 
-Set parameters in `./config/_default/params.toml`:
+Add the following parameters to `./config/_default/params.toml`:
 
 ```toml
 # Images (@hyas/images)
@@ -59,7 +98,7 @@ Set parameters in `./config/_default/params.toml`:
     widths = [480, 640, 800, 1024]
 ```
 
-## Processing options
+#### Set processing options
 
 Set [processing options](https://gohugo.io/content-management/image-processing/#processing-options) in `./config/_default/hugo.toml`:
 
@@ -72,7 +111,7 @@ Set [processing options](https://gohugo.io/content-management/image-processing/#
   resampleFilter = "Lanczos"
 ```
 
-## CSS
+#### Add CSS
 
 Add CSS class selectors to `./assets/scss/components/_images.scss`:
 
@@ -103,7 +142,7 @@ figcaption {
 }
 ```
 
-## PostCSS
+#### Update PostCSS settings
 
 Add CSS class selectors to `safelist` in `./config/postcss.config.js`:
 
@@ -116,3 +155,10 @@ Add CSS class selectors to `safelist` in `./config/postcss.config.js`:
       ],
 ..
 ```
+
+### Add images
+
+Images is now set up and it's time to add some images!
+
+## Next steps
+

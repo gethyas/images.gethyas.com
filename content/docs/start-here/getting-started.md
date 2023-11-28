@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Official images integration for Hyas.
+Images is the official images integration for the [Hyas](https://gethyas.com/) framework. This guide will help you get started with 
 
 ## Installation
 
