@@ -18,16 +18,15 @@ seo:
   noindex: false # false (default) or true
 ---
 
-If you want to add Images to an existing Hyas project, this guide will explain how.
-
+If you want to add Images to a Hyas project, this guide will explain how.
 
 ## Set up Images
 
-To follow this guide, you'll need an existing Hyas project.
+To follow this guide, you'll need a Hyas project.
 
 ### Add the Images integration
 
-Doks is a [Hyas integration](https://docs.gethyas.com/guides/integrations/). Add it to your site by running the following command in your project’s root directory:
+Images is a [Hyas integration](https://docs.gethyas.com/guides/integrations/). Add it to your site by running the following command in your project's root directory:
 
 {{< tabs "install-images" >}}
 {{< tab "npm" >}}
@@ -160,5 +159,12 @@ Add CSS class selectors to `safelist` in `./config/postcss.config.js`:
 
 Images is now set up and it's time to add some images!
 
+- Add images to your `.md` pages by using Markdown or by using the `img`, `picture`, or `figure` shortcode.
+- Add images to your `html` pages by using the the `img`, `picture`, or `figure` partial.
+
 ## Next steps
 
+- **Resources**: Learn where to store your images in the ["Resources"](/docs/guides/resources/) guide.
+- **Markdown**: Learn how to add Markdown images in the ["Markdown"](/docs/guides/markdown/) guide.
+- **Shortcodes**: Add images using a shortcode with the ["img"](/docs/guides/shortcodes/img/), ["picture"](/docs/guides/shortcodes/picture/), and ["figure"](/docs/guides/shortcodes/figure/) shortcode guides.
+- **Partials**: Add images using a partial with the ["img"](/docs/guides/partials/img/), ["picture"](/docs/guides/partials/picture/), and ["figure"](/docs/guides/partials/figure/) partial guides.

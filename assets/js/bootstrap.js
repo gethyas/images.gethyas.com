@@ -16,5 +16,5 @@ import {
   ScrollSpy,
   Tab,
   Toast,
-  Tooltip
+  Tooltip,
 } from 'bootstrap';

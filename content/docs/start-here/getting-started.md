@@ -18,11 +18,61 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Images is the official images integration for the [Hyas](https://gethyas.com/) framework. This guide will help you get started with 
+Images is the official images integration for the [Hyas](https://gethyas.com/) framework. This guide will help you get started with Images. See the [manual setup instructions](/docs/start-here/manual-setup/) to add Images to a Hyas project.
 
-## Installation
+## Quick start
+
+To follow this guide, you'll need a Hyas project with Images installed.
+
+### Check if Images is installed
+
+Check if Images is installed by running the following command in your project's root directory:
 
 {{< tabs "install-images" >}}
+{{< tab "npm" >}}
+
+```bash
+npm list @hyas/images
+```
+
+{{< /tab >}}
+{{< tab "pnpm" >}}
+
+```bash
+pnpm list @hyas/images --depth 1
+```
+
+{{< /tab >}}
+{{< tab "Yarn" >}}
+
+```bash
+yarn list @hyas/images --depth=1
+```
+
+{{< /tab >}}
+{{< /tabs >}}
+
+This will print the version of the package installed. If nothing is printed, you'll first need to add Images — proceed with the [manual setup instructions](/docs/start-here/manual-setup/).
+
+### Add images
+
+Images is installed and it's time to add some images!
+
+- Add images to your `.md` pages by using Markdown or by using the `img`, `picture`, or `figure` shortcode.
+- Add images to your `html` pages by using the the `img`, `picture`, or `figure` partial.
+
+### Next steps
+
+- **Resources**: Learn where to store your images in the ["Resources"](/docs/guides/resources/) guide.
+- **Markdown**: Learn how to add Markdown images in the ["Markdown"](/docs/guides/markdown/) guide.
+- **Shortcodes**: Add images using a shortcode with the ["img"](/docs/guides/shortcodes/img/), ["picture"](/docs/guides/shortcodes/picture/), and ["figure"](/docs/guides/shortcodes/figure/) shortcode guides.
+- **Partials**: Add images using a partial with the ["img"](/docs/guides/partials/img/), ["picture"](/docs/guides/partials/picture/), and ["figure"](/docs/guides/partials/figure/) partial guides.
+
+## Updating Images
+
+Images is a Hyas integration, and is updated like any `@hyas/*` integration (or theme):
+
+{{< tabs "update-images" >}}
 {{< tab "npm" >}}
 
 ```bash
@@ -33,30 +83,32 @@ npm install @hyas/images@latest
 {{< tab "pnpm" >}}
 
 ```bash
-pnpm install @hyas/images@latest
+pnpm upgrade @hyas/images --latest
 ```
 
 {{< /tab >}}
 {{< tab "Yarn" >}}
 
 ```bash
-yarn add @hyas/images@latest
+yarn upgrade @hyas/images --latest
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
 
-## How to use
+See the [Images changelog](https://github.com/gethyas/images/blob/main/CHANGELOG.md) for a full list of the changes made in each release.
 
-See the Hyas documentation:
+## Troubleshooting Images
 
-- [Images](https://images.gethyas.com/)
+Use the [project configuration](/docs/reference/configuration/), shortcodes (["img"](/docs/reference/shortcodes/img/), ["picture"](/docs/reference/shortcodes/picture/), and ["figure"](/docs/reference/shortcodes/figure/)), and partials (["img"](/docs/reference/partials/img/), ["picture"](/docs/reference/partials/picture/), and ["figure"](/docs/reference/partials/figure/)) reference pages to ensure that images is configured and functioning properly. See the guides in the sidebar for help storing images and customizing your Images setup.
+
+If your answer cannot be found in these docs, please visit the [full Hyas Docs](https://docs.gethyas.com/) for complete Hyas documentation. Your question may be answered by understanding how Hyas works in general, underneath this Images integration.
+
+You can also check for any known [Images issues on GitHub](https://github.com/gethyas/images/issues), and get help in [Hyas Discussions](https://github.com/gethyas/hyas/discussions) from our active, friendly community!
 
 ## Credits
 
-{{< callout context="tip" title="Who's the photographer?" icon="camera" >}}
-All photos on this site are by [Vincent van Zalinge](https://unsplash.com/@vincentvanzalinge)
-{{< /callout >}}
+All photos on this site are by [Vincent van Zalinge](https://unsplash.com/@vincentvanzalinge).
 
 This npm package is based on:
 

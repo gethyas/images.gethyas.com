@@ -1,2 +1,4 @@
+assets/scss/common/_variables-docsearch.scss
+assets/scss/common/_custom.scss
 assets/scss/vendor
 node_modules
