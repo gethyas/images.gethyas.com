@@ -18,11 +18,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
-If you want to add Images to a Hyas project, this guide will explain how.
+The quickest way to get started with Images is using a Hyas theme with [Images already installed](/docs/start-here/getting-started/#check-if-images-is-installed). If you want to add Images to an existing Hyas project, this guide will explain how.
 
 ## Set up Images
 
-To follow this guide, you'll need a Hyas project.
+To follow this guide, you'll need an existing Hyas project.
 
 ### Add the Images integration
 
@@ -165,6 +165,5 @@ Images is now set up and it's time to add some images!
 ## Next steps
 
 - **Resources**: Learn where to store your images in the ["Resources"](/docs/guides/resources/) guide.
-- **Markdown**: Learn how to add Markdown images in the ["Markdown"](/docs/guides/markdown/) guide.
-- **Shortcodes**: Add images using a shortcode with the ["img"](/docs/guides/shortcodes/img/), ["picture"](/docs/guides/shortcodes/picture/), and ["figure"](/docs/guides/shortcodes/figure/) shortcode guides.
-- **Partials**: Add images using a partial with the ["img"](/docs/guides/partials/img/), ["picture"](/docs/guides/partials/picture/), and ["figure"](/docs/guides/partials/figure/) partial guides.
+- **Shortcodes**: Get started with the ["img"](/docs/guides/shortcodes/img/), ["picture"](/docs/guides/shortcodes/picture/), and ["figure"](/docs/guides/shortcodes/figure/) shortcode guides.
+- **Partials**: Get started with the ["img"](/docs/guides/partials/img/), ["picture"](/docs/guides/partials/picture/), and ["figure"](/docs/guides/partials/figure/) partial guides.
