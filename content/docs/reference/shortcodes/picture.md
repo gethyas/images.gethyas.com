@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This reference guide describes the [picture](/docs/guides/shortcodes/picture/) shortcode arguments.
+This reference guide describes the [picture shortcode](/docs/guides/shortcodes/picture/) arguments.
 
 ## Arguments
 

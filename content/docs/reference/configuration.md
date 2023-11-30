@@ -17,3 +17,35 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+This reference guide describes the [Images parameters](/docs/guides/customizing-images/#update-parameters).
+
+## Parameters
+
+### Landscape
+
+#### normalize
+
+(`string`) The normalized image's width and height, in pixels. Default is `1600x900`.
+
+#### lqip
+
+(`string`) The LQIP image's width and height, in pixels. Default is `16x9`.
+
+#### widths
+
+(`string slice`) A slice of image widths, ordered by precendence, used when creating images for the `srcset` attribute of each `source` element.
+
+### Portrait
+
+#### normalize
+
+(`string`) The normalized image's width and height, in pixels. Default is `900x1600`.
+
+#### lqip
+
+(`string`) The LQIP image's width and height, in pixels. Default is `9x16`.
+
+#### widths
+
+(`string slice`) A slice of image widths, ordered by precendence, used when creating images for the `srcset` attribute of each `source` element.

@@ -18,9 +18,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
+You can add images to your `.md` pages by using the `figure` shortcode. See the [figure shortcode reference page](/docs/reference/shortcodes/figure/) for all available arguments.
 
+## Examples
 
-## Page resource
+### Page resource
 
 ```md
 {{</* figure
@@ -32,7 +34,7 @@ seo:
 
 {{< figure src="vincent-van-zalinge-e5VzJJDODbQ-unsplash.jpg" alt="A yellow and black bird sitting on top of a body of water" caption="A yellow and black bird sitting on top of a body of water. Photo by Vincent van Zalinge" >}}
 
-## Global resource
+### Global resource
 
 ```md
 {{</* figure
@@ -44,7 +46,7 @@ seo:
 
 {{< figure src="images/vincent-van-zalinge-XIp7Wna0ua0-unsplash.jpg" alt="A small bird perched on top of a tree branch" caption="A small bird perched on top of a tree branch. Photo by Vincent van Zalinge" >}}
 
-## Remote resource
+### Remote resource
 
 ```md
 {{</* figure

@@ -18,11 +18,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This reference guide describes the [figure](/docs/guides/partials/figure/) partial arguments.
+This reference guide describes the [figure partial](/docs/guides/partials/figure/) arguments.
 
 ## Arguments
 
-The `src` and `page` arguments are required.
+The `src` and `page` arguments are required; others are optional.
 
 ### alt
 (`string`) The `figure` element's `alt` attribute.

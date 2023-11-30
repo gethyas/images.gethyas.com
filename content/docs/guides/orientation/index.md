@@ -18,7 +18,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
-## Landscape
+You can add images in landscape orientation and portrait orientation.
+
+## Examples
+
+### Landscape
 
 ```md
 {{</* picture
@@ -30,7 +34,7 @@ seo:
 
 {{< picture src="vincent-van-zalinge-ejcSwzNnGv0-unsplash.jpg" alt="A butterfly on a flower" width="480" >}}
 
-## Portrait
+### Portrait
 
 ```md
 {{</* picture

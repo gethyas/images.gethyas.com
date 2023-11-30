@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Image Resources"
 description: ""
 summary: ""
 date: 2023-11-09T14:37:09+01:00
@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Store your images as a page resource, global resource, or remote resource.
+You can store your images as a page resource, global resource, or remote resource.
 
 ## Page resource
 
@@ -29,13 +29,13 @@ content/
 └── posts/
     └── post-1/           # page bundle
         ├── index.md
-        └── sunset.jpg    # page resource
+        └── bird.jpg    # page resource
 ```
 
 Show a page resource image — use path:
 
 ```bash
-sunset.jpg
+bird.jpg
 ```
 
 ## Global resource
@@ -45,13 +45,13 @@ A global resource is a file within the `assets` directory, or within any directo
 ```bash
 assets/
 └── images/
-    └── sunset.jpg    # global resource
+    └── bird.jpg    # global resource
 ```
 
 Show a global resource image — use path:
 
 ```bash
-images/sunset.jpg
+images/bird.jpg
 ```
 
 ## Remote resource

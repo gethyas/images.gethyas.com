@@ -18,9 +18,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
+You can show a blog post cover image in your blog pages.
+
 ## Cover image
 
-Show a blog post cover image to your [blog list](/blog/) and [blog post](/blog/example-post/) by adding a [page resource](/docs/guides/resources/#page-resource) image with a filename containing `feature`, `cover`, or `thumbnail`.
+Show a blog post cover image in your [blog list](/blog/) and [blog post](/blog/example-post/) pages by adding a [page resource](/docs/guides/image-resources/#page-resource) image with a filename containing `feature`, `cover`, or `thumbnail`.
 
 ```bash
 cover-vincent-van-zalinge-XJO99LpVHnU-unsplash.jpg

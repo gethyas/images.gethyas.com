@@ -164,6 +164,6 @@ Images is now set up and it's time to add some images!
 
 ## Next steps
 
-- **Resources**: Learn where to store your images in the ["Resources"](/docs/guides/resources/) guide.
+- **Resources**: Learn where to store your images in the ["Image Resources"](/docs/guides/image-resources/) guide.
 - **Shortcodes**: Get started with the ["img"](/docs/guides/shortcodes/img/), ["picture"](/docs/guides/shortcodes/picture/), and ["figure"](/docs/guides/shortcodes/figure/) shortcode guides.
 - **Partials**: Get started with the ["img"](/docs/guides/partials/img/), ["picture"](/docs/guides/partials/picture/), and ["figure"](/docs/guides/partials/figure/) partial guides.
