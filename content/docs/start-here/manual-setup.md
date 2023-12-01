@@ -82,7 +82,7 @@ Add mounts to `./config/_default/module.toml`:
 
 #### Add parameters
 
-Add the following parameters to `./config/_default/params.toml`:
+Add the following [parameters](/docs/reference/configuration/#parameters) to `./config/_default/params.toml`:
 
 ```toml
 # Images (@hyas/images)

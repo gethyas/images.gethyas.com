@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-You can add images with overlays using a shortcode or partial.
+You can add images with an overlay using a shortcode or partial.
 
 ## Examples
 

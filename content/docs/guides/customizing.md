@@ -22,7 +22,7 @@ You can customize Images by updating parameters and processing options.
 
 ## Update parameters
 
-Update the following [parameters](/docs/reference/configuration/) in `./config/_default/params.toml`:
+Update the following [parameters](/docs/reference/configuration/#parameters) in `./config/_default/params.toml`:
 
 ```toml
 # Images (@hyas/images)

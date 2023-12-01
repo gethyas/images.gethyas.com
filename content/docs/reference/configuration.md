@@ -34,7 +34,7 @@ This reference guide describes the [Images parameters](/docs/guides/customizing-
 
 #### widths
 
-(`string slice`) A slice of image widths, ordered by precendence, used when creating images for the `srcset` attribute of each `source` element.
+(`integer array`) An array of image widths, ordered by precendence, used when creating images for the `srcset` attribute of each `source` element.
 
 ### Portrait
 
@@ -48,4 +48,4 @@ This reference guide describes the [Images parameters](/docs/guides/customizing-
 
 #### widths
 
-(`string slice`) A slice of image widths, ordered by precendence, used when creating images for the `srcset` attribute of each `source` element.
+(`integer array`) An array of image widths, ordered by precendence, used when creating images for the `srcset` attribute of each `source` element.
