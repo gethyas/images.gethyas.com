@@ -33,7 +33,7 @@ content/
         └── bird.jpg    # page resource
 ```
 
-If you want to show a page resource image — use the path:
+If you want to show a page resource image — use the relative path:
 
 ```bash
 bird.jpg
@@ -49,7 +49,7 @@ assets/
     └── bird.jpg    # global resource
 ```
 
-If you want to show a global resource image — use the path:
+If you want to show a global resource image — use the relative path:
 
 ```bash
 images/bird.jpg
