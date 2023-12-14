@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Blog Post Cover Image"
 description: ""
 summary: ""
 date: 2023-11-10T20:43:26+01:00
@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "blog-0f2ab30692aa8c549c91e792d11ee6e9"
-weight: 880
+weight: 610
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -22,7 +22,7 @@ You can show a blog post cover image in your blog pages.
 
 ## Cover image
 
-Show a blog post cover image in your [blog list](/blog/) and [blog post](/blog/example-post/) pages by adding a [page resource](/docs/guides/image-resources/#page-resource) image with a filename containing `feature`, `cover`, or `thumbnail`.
+Show a blog post cover image in your [blog list](/blog/) and [blog post](/blog/example-post/) pages by adding a [page resource](/docs/basics/resources/#page-resource) image with a filename containing `feature`, `cover`, or `thumbnail`.
 
 ```bash
 cover-vincent-van-zalinge-XJO99LpVHnU-unsplash.jpg

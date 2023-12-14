@@ -1,5 +1,5 @@
 ---
-title: "Overlay"
+title: "Image Overlay"
 description: ""
 summary: ""
 date: 2023-11-09T16:43:06+01:00
@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "overlay-7507cdecdd9e414faad33a8e0027d8ba"
-weight: 870
+weight: 630
 toc: true
 seo:
   title: "" # custom title (optional)

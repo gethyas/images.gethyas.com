@@ -1,15 +1,15 @@
 ---
-title: "Shortcodes"
+title: "Partials"
 description: ""
 summary: ""
-date: 2023-11-09T16:44:42+01:00
-lastmod: 2023-11-09T16:44:42+01:00
+date: 2023-12-14T11:24:37+01:00
+lastmod: 2023-12-14T11:24:37+01:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "shortcodes-af89c7df0fb4472af13442b7d3a1682e"
-weight: 840
+    identifier: "partials-b291d4ddfdc13a87d08ff88408008c75"
+weight: 500
 toc: true
 seo:
   title: "" # custom title (optional)

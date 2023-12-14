@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "customizing-images-f36de4637c9b0d897aa3bcdc314d1d18"
-weight: 825
+weight: 330
 toc: true
 seo:
   title: "" # custom title (optional)

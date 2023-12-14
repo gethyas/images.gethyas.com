@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "start-here-ad2e5f6baaa50c5e7c909718fcf0b25b"
-weight: 500
+weight: 100
 toc: true
 seo:
   title: "" # custom title (optional)

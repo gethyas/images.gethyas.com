@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "img-a38b7ebeed38d906ecb14b1193bf3be6"
-weight: 922
+weight: 932
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This reference guide describes the [img partial](/docs/guides/partials/img/) arguments.
+This reference guide describes the [img partial](/docs/partials/img/) arguments.
 
 ## Arguments
 

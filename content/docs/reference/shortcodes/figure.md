@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "figure-d6d8664a7203fc8681a006a8fccb5117"
-weight: 916
+weight: 926
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This reference guide describes the [figure shortcode](/docs/guides/shortcodes/figure/) arguments.
+This reference guide describes the [figure shortcode](/docs/shortcodes/figure/) arguments.
 
 ## Arguments
 

@@ -1,5 +1,5 @@
 ---
-title: "Orientation"
+title: "Image Orientation"
 description: ""
 summary: ""
 date: 2023-11-09T16:40:06+01:00
@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "orientation-f63422db38972d1513297a475d54831a"
-weight: 860
+weight: 620
 toc: true
 seo:
   title: "" # custom title (optional)

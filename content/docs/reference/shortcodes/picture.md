@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "picture-1376df46b3aac933c8bdabf0fa2efe0a"
-weight: 914
+weight: 924
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This reference guide describes the [picture shortcode](/docs/guides/shortcodes/picture/) arguments.
+This reference guide describes the [picture shortcode](/docs/shortcodes/picture/) arguments.
 
 ## Arguments
 

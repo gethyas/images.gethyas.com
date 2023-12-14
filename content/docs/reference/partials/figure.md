@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "figure-a7c13068a48ac176b6f080661f8d52cd"
-weight: 926
+weight: 936
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This reference guide describes the [figure partial](/docs/guides/partials/figure/) arguments.
+This reference guide describes the [figure partial](/docs/partials/figure/) arguments.
 
 ## Arguments
 

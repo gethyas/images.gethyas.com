@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "configuration-cc48b7360e5d947bc63c77e137bb5d69"
-weight: 900
+weight: 910
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This reference guide describes the [Images parameters](/docs/guides/customizing-images/#update-parameters).
+This reference guide describes the [Images parameters](/docs/basics/customizing-images/#update-parameters).
 
 ## Parameters
 

@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "getting-started-fa68d7c8600c3a18e71e96b5bcbde732"
-weight: 510
+weight: 110
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -63,9 +63,9 @@ Images is installed and it's time to add some images!
 
 ### Next steps
 
-- **Resources**: Learn where to store your images in the ["Image Resources"](/docs/guides/image-resources/) guide.
-- **Shortcodes**: Get started with the ["img"](/docs/guides/shortcodes/img/), ["picture"](/docs/guides/shortcodes/picture/), and ["figure"](/docs/guides/shortcodes/figure/) shortcode guides.
-- **Partials**: Get started with the ["img"](/docs/guides/partials/img/), ["picture"](/docs/guides/partials/picture/), and ["figure"](/docs/guides/partials/figure/) partial guides.
+- **Resources**: Learn where to store your images in the ["Resource Locations"](/docs/basics/resources/) guide.
+- **Shortcodes**: Get started with the ["img"](/docs/shortcodes/img/), ["picture"](/docs/shortcodes/picture/), and ["figure"](/docs/shortcodes/figure/) shortcode guides.
+- **Partials**: Get started with the ["img"](/docs/partials/img/), ["picture"](/docs/partials/picture/), and ["figure"](/docs/partials/figure/) partial guides.
 
 ## Updating Images
 

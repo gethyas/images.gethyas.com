@@ -1,15 +1,15 @@
 ---
-title: "figure"
+title: "img"
 description: ""
 summary: ""
-date: 2023-11-09T16:50:41+01:00
-lastmod: 2023-11-09T16:50:41+01:00
+date: 2023-11-09T16:50:46+01:00
+lastmod: 2023-11-09T16:50:46+01:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "figure-366fd0d288cb480a67a61ac01f61785c"
-weight: 856
+    identifier: "img-73fde1b0a94e33b9dbe13c6bb1eb86e8"
+weight: 510
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -18,14 +18,14 @@ seo:
   noindex: false # false (default) or true
 ---
 
-You can add images to your `.html` pages by using the `figure` partial. See the [figure partial reference page](/docs/reference/partials/figure/) for all available arguments.
+You can add images to your `.html` pages by using the `img` partial. See the [img partial reference page](/docs/reference/partials/img/) for all available arguments.
 
 ## Examples
 
 ### Required arguments only
 
 ```go
-{{- partial "figure" (dict "page" . "src" "images/vincent-van-zalinge-IicWDdQUfsQ-unsplash.jpg") }}
+{{- partial "img" (dict "page" . "src" "images/vincent-van-zalinge-IicWDdQUfsQ-unsplash.jpg") }}
 ```
 
 ### All arguments
@@ -44,7 +44,6 @@ You can add images to your `.html` pages by using the `figure` partial. See the 
   "src" "images/vincent-van-zalinge-IicWDdQUfsQ-unsplash.jpg"
   "title" "A close-up of a butterfly on a rope"
   "width" 768
-  "caption" "A close-up of a butterfly on a rope"
 }}
-{{- partial "figure" $opts }}
+{{- partial "img" $opts }}
 ```

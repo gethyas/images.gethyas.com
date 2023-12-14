@@ -14,6 +14,9 @@ import 'js/to-top.js';
 import 'js/tabs.js';
 
 // Import custom.js
+// import 'js/medium-zoom.js';
+
+// Import custom.js
 import 'js/custom.js';
 
 /*

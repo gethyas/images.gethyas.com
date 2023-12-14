@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "img-b7633eb1109e6cbdeef1e8b9bd84b3a3"
-weight: 912
+weight: 922
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-This reference guide describes the [img shortcode](/docs/guides/shortcodes/img/) arguments.
+This reference guide describes the [img shortcode](/docs/shortcodes/img/) arguments.
 
 ## Arguments
 
