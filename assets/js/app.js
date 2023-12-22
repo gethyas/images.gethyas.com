@@ -13,8 +13,8 @@ import 'js/to-top.js';
 // Import tabs.js
 import 'js/tabs.js';
 
-// Import custom.js
-// import 'js/medium-zoom.js';
+// Import spotlight.js
+import 'js/spotlight.js';
 
 // Import custom.js
 import 'js/custom.js';

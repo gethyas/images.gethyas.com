@@ -69,6 +69,7 @@
 @import "components/alerts";
 @import "components/buttons";
 @import "components/callouts";
+@import "components/expressive-code";
 @import "components/code";
 @import "components/comments";
 @import "components/details";
@@ -100,8 +101,8 @@ body {
 // 10. DocSearch
 // @import "@docsearch/css/dist/_variables";
 
-// 11. Medium Zoom
-// @import 'medium-zoom/dist/style';
+// 11. Spotlight
+@import 'spotlight.js/dist/css/spotlight.min';
 
 /*
 @import "common/variables-docsearch";

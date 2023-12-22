@@ -25,7 +25,9 @@
     "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo"
   },
   "dependencies": {
-    "@hyas/doks-core": "^1.1.1"
+    "@hyas/doks-core": "^1.2.0",
+    "install": "^0.13.0",
+    "spotlight.js": "^0.7.8"
   },
   "engines": {
     "node": ">=16.12.0",

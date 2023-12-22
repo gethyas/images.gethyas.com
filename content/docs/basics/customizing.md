@@ -24,7 +24,7 @@ You can customize Images by updating parameters and processing options.
 
 Update the following [parameters](/docs/reference/configuration/#parameters) in `./config/_default/params.toml`:
 
-```toml
+```toml {title=params.toml}
 # Images (@hyas/images)
 [hyas_images]
   [hyas_images.landscape]
@@ -41,7 +41,7 @@ Update the following [parameters](/docs/reference/configuration/#parameters) in 
 
 Update [processing options](https://gohugo.io/content-management/image-processing/#processing-options) in `./config/_default/hugo.toml`:
 
-```toml
+```toml {title=hugo.toml}
 [imaging]
   anchor = "Center"
   bgColor = "#ffffff"

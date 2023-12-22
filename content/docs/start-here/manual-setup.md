@@ -60,7 +60,7 @@ This will install the required dependencies.
 
 Add mounts to `./config/_default/module.toml`:
 
-```toml
+```toml {title=module.toml}
 ## assets
 [[mounts]]
   source = "node_modules/@hyas/images/assets"
@@ -84,7 +84,7 @@ Add mounts to `./config/_default/module.toml`:
 
 Add the following [parameters](/docs/reference/configuration/#parameters) to `./config/_default/params.toml`:
 
-```toml
+```toml {title=params.toml}
 # Images (@hyas/images)
 [hyas_images]
   [hyas_images.landscape]
@@ -101,7 +101,7 @@ Add the following [parameters](/docs/reference/configuration/#parameters) to `./
 
 Set [processing options](https://gohugo.io/content-management/image-processing/#processing-options) in `./config/_default/hugo.toml`:
 
-```toml
+```toml {title=hugo.toml}
 [imaging]
   anchor = "Center"
   bgColor = "#ffffff"
@@ -114,7 +114,7 @@ Set [processing options](https://gohugo.io/content-management/image-processing/#
 
 Add CSS class selectors to `./assets/scss/components/_images.scss`:
 
-```scss
+```scss {title=_images.scss}
 img[data-sizes="auto"] {
   display: block;
   width: 100%;
