@@ -45,6 +45,36 @@
   post = "$"
   weight = 20
 
+  [[main]]
+  name = "Other docs"
+  url = "https://github.com/h-enk/doks/discussions"
+  weight = 50
+  identifier = "other-docs"
+
+[[main]]
+  name = "Hyas"
+  weight = 51
+  url = "https://docs.gethyas.com/"
+  parent = "other-docs"
+
+[[main]]
+  name = "Doks"
+  weight = 52
+  url = "https://getdoks.org/"
+  parent = "other-docs"
+
+# [[main]]
+#   name = "Inline SVG"
+#   weight = 53
+#   url = "https://svg.gethyas.com/"
+#   parent = "other-docs"
+# 
+# [[main]]
+#   name = "SEO"
+#   weight = 54
+#   url = "https://seo.gethyas.com/"
+#   parent = "other-docs"
+
 # [[main]]
 #   name = "Blog"
 #   url = "/blog/"
