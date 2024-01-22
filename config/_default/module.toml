@@ -14,7 +14,7 @@
   target = "assets"
 
 [[mounts]]
-  source = "node_modules/@hyas/images/assets"
+  source = "node_modules/@hyas/images-dev/assets"
   target = "assets"
   excludeFiles = "/scss/**.scss"
 
@@ -63,7 +63,7 @@
   target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/images/layouts"
+  source = "node_modules/@hyas/images-dev/layouts"
   target = "layouts"
 
 [[mounts]]

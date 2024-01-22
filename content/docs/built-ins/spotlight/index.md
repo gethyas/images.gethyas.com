@@ -4,7 +4,7 @@ description: ""
 summary: ""
 date: 2023-12-14T16:33:26+01:00
 lastmod: 2023-12-14T16:33:26+01:00
-draft: false
+draft: true
 menu:
   docs:
     parent: ""
@@ -37,7 +37,8 @@ You will need `@hyas/images` 2.1.x or newer. [Check your version](/docs/start-he
 {.list-unstyled}
 
 ### Later
-- [ ] Light mode theme.
+
+- [ ] Light mode theme
 - [ ] Expand options
 {.list-unstyled}
 
