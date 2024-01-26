@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Images is the official images integration for the [Hyas](https://gethyas.com/) framework. This guide will help you get started with Images. See the [manual setup instructions](/docs/start-here/manual-setup/) to add Images to an existing Hyas project.
+Images is the official images integration for the [Hyas](https://gethyas.com/) framework. This guide will help you get started with Images already installed. See the [manual setup instructions](/docs/start-here/manual-setup/) to add Images to an existing Hyas project.
 
 ## Quick start
 
@@ -108,6 +108,8 @@ You can also check for any known [Images issues on GitHub](https://github.com/ge
 ## Credits
 
 All photos on this site are by [Vincent van Zalinge](https://unsplash.com/@vincentvanzalinge).
+
+All illustrations on this site are by [Franziska Höllbacher](https://giphy.com/franziskahoellbacher).
 
 This npm package is based on:
 

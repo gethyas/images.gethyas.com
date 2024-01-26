@@ -30,6 +30,30 @@ You can add images to your `.md` pages by using the `img` shortcode. See the [im
 
 {{< img src="vincent-van-zalinge-zwFyZI70zlU-unsplash.jpg" alt="A white bird flying over a lush green field" >}}
 
+#### Rendered HTML
+
+```html
+<img
+  srcset="
+    /docs/shortcodes/img/vincent-van-zalinge-zwFyZI70zlU-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_240654_480x0_resize_q85_h2_lanczos.webp 480w,
+    /docs/shortcodes/img/vincent-van-zalinge-zwFyZI70zlU-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_240654_576x0_resize_q85_h2_lanczos.webp 576w,
+    /docs/shortcodes/img/vincent-van-zalinge-zwFyZI70zlU-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_240654_768x0_resize_q85_h2_lanczos.webp 768w,
+    /docs/shortcodes/img/vincent-van-zalinge-zwFyZI70zlU-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_240654_1025x0_resize_q85_h2_lanczos.webp 1025w,
+    /docs/shortcodes/img/vincent-van-zalinge-zwFyZI70zlU-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_240654_1200x0_resize_q85_h2_lanczos.webp 1200w,
+    /docs/shortcodes/img/vincent-van-zalinge-zwFyZI70zlU-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_240654_1440x0_resize_q85_h2_lanczos.webp 1440w,
+    /docs/shortcodes/img/vincent-van-zalinge-zwFyZI70zlU-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_240654_1920x0_resize_q85_h2_lanczos.webp 1920w
+  "
+  sizes="75vw"
+  src="/docs/shortcodes/img/vincent-van-zalinge-zwFyZI70zlU-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_240654_480x0_resize_q85_lanczos.jpg"
+  width="1920"
+  height="1280"
+  decoding="async"
+  fetchpriority="auto"
+  loading="lazy"
+  alt="A white bird flying over a lush green field"
+>
+```
+
 ### Global resource
 
 ```md

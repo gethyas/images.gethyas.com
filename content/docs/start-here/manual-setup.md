@@ -87,14 +87,13 @@ Add the following [parameters](/docs/reference/configuration/#parameters) to `./
 ```toml {title=params.toml}
 # Images (@hyas/images)
 [hyas_images]
-  [hyas_images.landscape]
-    normalize = "1360x765" # "1600x900" (default)
-    lqip = "16x9" # "16x9" (default)
-    widths = [480, 640, 800, 1024]
-  [hyas_images.portrait]
-    normalize = "765x1360" # "900x1600" (default)
-    lqip = "9x16" # "9x16" (default)
-    widths = [480, 640, 800, 1024]
+  [hyas_images.defaults]
+    decoding = "async" # sync, async, or auto (default)
+    fetchpriority = "auto" # high, low, or auto (default) 
+    loading = "lazy" # eager or lazy (default)
+    widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
+    sizes = "75vw" # 100vw (default), 75vw, or auto for example
+    process = "" # "fill 1680x720" for example
 ```
 
 #### Set processing options
@@ -115,23 +114,13 @@ Set [processing options](https://gohugo.io/content-management/image-processing/#
 Add CSS class selectors to `./assets/scss/components/_images.scss`:
 
 ```scss {title=_images.scss}
-img[data-sizes="auto"] {
-  display: block;
-  width: 100%;
+img {
   height: auto;
+  max-width: 100%;
 }
 
-.figure {
-  display: block;
-}
-
-.blur-up {
-  filter: blur(5px);
-  transition: filter 400ms;
-}
-
-.blur-up.lazyloaded {
-  filter: unset;
+img, picture {
+  font-size: 0;
 }
 
 figcaption {
@@ -139,20 +128,6 @@ figcaption {
   margin-top: 0.5rem;
   font-style: italic;
 }
-```
-
-#### Update PostCSS settings
-
-Add CSS class selectors to `safelist` in `./config/postcss.config.js`:
-
-```js
-..
-      safelist: [
-        'img-fluid',
-        'lazyloaded',
-        'blur-up',
-      ],
-..
 ```
 
 ### Add images

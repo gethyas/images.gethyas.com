@@ -34,6 +34,35 @@ You can add images to your `.md` pages by using the `figure` shortcode. See the 
 
 {{< figure src="vincent-van-zalinge-e5VzJJDODbQ-unsplash.jpg" alt="A yellow and black bird sitting on top of a body of water" caption="A yellow and black bird sitting on top of a body of water. Photo by Vincent van Zalinge" >}}
 
+#### Rendered HTML
+
+```html
+<figure>
+  <img
+    srcset="
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_480x0_resize_q85_h2_lanczos.webp 480w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_576x0_resize_q85_h2_lanczos.webp 576w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_768x0_resize_q85_h2_lanczos.webp 768w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_1025x0_resize_q85_h2_lanczos.webp 1025w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_1200x0_resize_q85_h2_lanczos.webp 1200w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_1440x0_resize_q85_h2_lanczos.webp 1440w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_1920x0_resize_q85_h2_lanczos.webp 1920w
+    "
+    sizes="75vw"
+    src="/docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_480x0_resize_q85_lanczos.jpg"
+    width="1920"
+    height="1280"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    alt="A yellow and black bird sitting on top of a body of water"
+  >
+  <figcaption>
+    A yellow and black bird sitting on top of a body of water. Photo by Vincent van Zalinge
+  </figcaption>
+</figure>
+```
+
 ### Global resource
 
 ```md

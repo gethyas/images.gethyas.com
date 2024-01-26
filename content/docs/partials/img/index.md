@@ -32,18 +32,18 @@ You can add images to your `.html` pages by using the `img` partial. See the [im
 
 ```go
 {{- $opts := dict
-  "alt" "A close-up of a butterfly on a rope"
-  "class" "foo"
-  "formats" (slice "webp" "jpeg")
-  "loading" "eager"
-  "overlay" "images/logo-unsplash.png"
-  "overlayAnchor" "bottomright"
-  "overlayPadding" 0.0375
-  "overlayWidth" 0.050
   "page" .
   "src" "images/vincent-van-zalinge-IicWDdQUfsQ-unsplash.jpg"
-  "title" "A close-up of a butterfly on a rope"
   "width" 768
+  "sizes" "auto"
+  "formats" (slice "webp" "jpeg")
+  "process" "fill 1680x720"
+  "decoding" "async"
+  "fetchpriority" "auto"
+  "loading" "eager"
+  "alt" "A close-up of a butterfly on a rope"
+  "title" "A close-up of a butterfly on a rope"
+  "class" "foo"
 }}
 {{- partial "img" $opts }}
 ```

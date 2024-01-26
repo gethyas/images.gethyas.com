@@ -35,7 +35,7 @@ content/
 
 If you want to show a page resource image — use the relative path:
 
-```bash
+```bash { frame=none }
 bird.jpg
 ```
 
@@ -51,7 +51,7 @@ assets/
 
 If you want to show a global resource image — use the relative path:
 
-```bash
+```bash { frame=none }
 images/bird.jpg
 ```
 
@@ -59,6 +59,6 @@ images/bird.jpg
 
 A remote resource is a file on a remote server, accessible via HTTP(S). If you want to show a remote resource image — use the URL:
 
-```bash
+```bash { frame=none }
 https://images.unsplash.com/photo-1690198517569-45458a850563?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80
 ```

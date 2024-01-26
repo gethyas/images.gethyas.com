@@ -27,14 +27,13 @@ Update the following [parameters](/docs/reference/configuration/#parameters) in 
 ```toml {title=params.toml}
 # Images (@hyas/images)
 [hyas_images]
-  [hyas_images.landscape]
-    normalize = "1360x765" # "1600x900" (default)
-    lqip = "16x9" # "16x9" (default)
-    widths = [480, 640, 800, 1024]
-  [hyas_images.portrait]
-    normalize = "765x1360" # "900x1600" (default)
-    lqip = "9x16" # "9x16" (default)
-    widths = [480, 640, 800, 1024]
+  [hyas_images.defaults]
+    decoding = "async" # sync, async, or auto (default)
+    fetchpriority = "auto" # high, low, or auto (default) 
+    loading = "lazy" # eager or lazy (default)
+    widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
+    sizes = "75vw" # 100vw (default), 75vw, or auto for example
+    process = "" # "fill 1680x720" for example
 ```
 
 ## Update processing options
