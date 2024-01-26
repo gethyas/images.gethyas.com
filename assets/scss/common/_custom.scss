@@ -148,3 +148,13 @@ figcaption {
     position: fixed !important;
   }
 }
+
+.content dl dt {
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.content dl dd {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}

@@ -32,7 +32,10 @@ cover-vincent-van-zalinge-XJO99LpVHnU-unsplash.jpg
 
 Change default settings in `config/_default/params.toml`:
 
-```toml
+```toml { title="params.toml" }
+# Doks (@hyas/doks-core)
+[doks]
+
   # Blog
   relatedPosts = false # false (default) or true
   imageList = true # true (default) or false

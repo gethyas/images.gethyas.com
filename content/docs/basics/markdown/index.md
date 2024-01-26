@@ -25,10 +25,26 @@ You can add images to your `.md` pages by using the [Markdown](https://daringfir
 ### Page resource
 
 ```md
-![Perched blue and orange bird](vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg)
+![A bird with a little fish in its mouth](2024-01-22_16-55-13.jpg "A bird with a little fish in its mouth")
 ```
 
-![Perched blue and orange bird](vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg)
+![A bird with a little fish in its mouth](2024-01-22_16-55-13.jpg "A bird with a little fish in its mouth")
+
+#### Rendered HTML
+
+```html
+<img
+  src="/docs/basics/markdown/2024-01-22_16-55-13_hu2f182e3f395c5b315c12df5e4e37e701_15767_410x274_resize_q85_h2_lanczos.webp"
+  width="410"
+  height="274"
+  decoding="async"
+  fetchpriority="auto"
+  loading="lazy"
+  alt="A bird with a little fish in its mouth"
+  title="A bird with a little fish in its mouth"
+  id="h-rh-i-0"
+>
+```
 
 ### Global resource
 
@@ -41,7 +57,7 @@ You can add images to your `.md` pages by using the [Markdown](https://daringfir
 ### Remote resource
 
 ```md
-![A close-up of a butterfly on a rope](https://images.unsplash.com/photo-1690198517569-45458a850563?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80)
+![A young lion cub walking through a wooded area](https://images.unsplash.com/photo-1703237307519-104c7aebf46c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D)
 ```
 
-![A close-up of a butterfly on a rope](https://images.unsplash.com/photo-1690198517569-45458a850563?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80)
+![A young lion cub walking through a wooded area](https://images.unsplash.com/photo-1703237307519-104c7aebf46c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D)
