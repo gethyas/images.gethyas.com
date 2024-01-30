@@ -37,7 +37,8 @@ You can add images to your `.html` pages by using the `img` partial. See the [im
   "width" 768
   "sizes" "auto"
   "formats" (slice "webp" "jpeg")
-  "process" "fill 1680x720"
+  "process" "fill 1600x900"
+  "lqip" "16x webp q20"
   "decoding" "async"
   "fetchpriority" "auto"
   "loading" "eager"

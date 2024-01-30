@@ -32,8 +32,9 @@ Update the following [parameters](/docs/reference/configuration/#parameters) in 
     fetchpriority = "auto" # high, low, or auto (default) 
     loading = "lazy" # eager or lazy (default)
     widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
-    sizes = "75vw" # 100vw (default), 75vw, or auto for example
-    process = "" # "fill 1680x720" for example
+    sizes = "auto" # 100vw (default), 75vw, or auto for example
+    process = "" # "fill 1600x900" or "fill 2100x900" for example
+    lqip = "16x webp q20" # "16x webp q20" or "21x webp q20" for example
 ```
 
 ## Update processing options

@@ -51,7 +51,11 @@ A string slice of image formats, ordered by precedence, used when creating image
 
 ### process
 
-A string containing a Hugo [process](https://gohugo.io/content-management/image-processing/#process) method — for example `fill 1680x720`.
+A string containing a Hugo [process](https://gohugo.io/content-management/image-processing/#process) method — for example `fill 1600x900`.
+
+### lqip
+
+A string containing a Hugo [resize](https://gohugo.io/content-management/image-processing/#resize) method — for example `16x webp q20`.
 
 ### decoding
 

@@ -25,18 +25,29 @@ You can add images to your `.md` pages by using the `picture` shortcode. See the
 ### Page resource
 
 ```md
-{{</* picture class="rounded-3" decoding="auto" loading="eager" src="2024-01-22_16-55-13.jpg" alt="A bird with a little fish in its mouth" */>}}
+{{</* picture
+  process="fill 480x270"
+  lqip="16x webp q20"
+  loading="eager"
+  fetchpriority="high"
+  width="320"
+  sizes="75vw"
+  formats="webp, jpeg"
+  class="rounded-3"
+  src="vincent-van-zalinge-M9YgjD0XCvY-unsplash.jpg"
+  alt="A bird with a little fish in its mouth"
+*/>}}
 ```
 
-{{< picture class="rounded-3" decoding="auto" loading="eager" src="2024-01-22_16-55-13.jpg" alt="A bird with a little fish in its mouth" >}}
+{{< picture process="fill 480x270" lqip="16x webp q20" loading="eager" fetchpriority="high" width="320" sizes="75vw" formats="webp, jpeg" class="rounded-3" src="vincent-van-zalinge-M9YgjD0XCvY-unsplash.jpg" alt="A bird with a little fish in its mouth" >}}
 
 ### Global resource
 
 ```md
-{{</* picture width="320" sizes="75vw" process="fill 1680x720" formats="webp, jpeg" src="images/vincent-van-zalinge-XIp7Wna0ua0-unsplash.jpg" alt="A small bird perched on top of a tree branch" */>}}
+{{</* picture width="320" sizes="75vw" process="fill 1600x900" formats="webp, jpeg" src="images/vincent-van-zalinge-XIp7Wna0ua0-unsplash.jpg" alt="A small bird perched on top of a tree branch" */>}}
 ```
 
-{{< picture width="320" sizes="75vw" process="fill 1680x720" formats="webp, jpeg" src="images/vincent-van-zalinge-XIp7Wna0ua0-unsplash.jpg" alt="A small bird perched on top of a tree branch" >}}
+{{< picture width="320" sizes="75vw" process="fill 1600x900" formats="webp, jpeg" src="images/vincent-van-zalinge-XIp7Wna0ua0-unsplash.jpg" alt="A small bird perched on top of a tree branch" >}}
 
 #### Rendered HTML
 
@@ -44,34 +55,50 @@ You can add images to your `.md` pages by using the `picture` shortcode. See the
 <picture>
   <source
     type="image/webp"
-    srcset="
-      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_8fb210b55a1c43fbe58035af75b837bf.webp 320w,
-      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_1195a0f60c161cfdbabfb3dc77802841.webp 640w,
-      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_509820779358c6fc814c2a74cc2b1d6d.webp 960w,
-      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_482e8ac2c6a51e65cabb739bbe32756f.webp 1280w,
-      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_ced355676c707141715af245d099fcc8.webp 1680w
+    data-srcset="
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_d932322747ae0d552fecacdd389253fd.webp 320w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_fa67adcac4a7e232b71452872ee263d0.webp 640w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_d99733e70155a8055cd452f9f59c6a6b.webp 960w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_636bb64dcf72ee976a5548567590c38f.webp 1280w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_b41d6f95ab9c07af4aa5398c5229f27c.webp 1600w
     "
-    sizes="75vw"
+    data-sizes="75vw"
+    srcset="
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_d932322747ae0d552fecacdd389253fd.webp 320w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_fa67adcac4a7e232b71452872ee263d0.webp 640w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_d99733e70155a8055cd452f9f59c6a6b.webp 960w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_636bb64dcf72ee976a5548567590c38f.webp 1280w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_b41d6f95ab9c07af4aa5398c5229f27c.webp 1600w
+    "
   >
   <source
     type="image/jpeg"
-      srcset="
-        /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_969769cd7c343d3f9bd0f20af670896d.jpg 320w,
-        /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_ee4fd60a9ffe86d69ed9e37fb355049d.jpg 640w,
-        /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_dca82a660d2dafd49dc880d76b5e6b97.jpg 960w,
-        /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_63c97e8cfad907ea11e435a9ff999416.jpg 1280w,
-        /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_432153bfcfcbe1d5096b4b2684dad06c.jpg 1680w
-      "
-      sizes="75vw"
+    data-srcset="
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_245f38c70d4405f674fc05a4f7142724.jpg 320w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_c02a4662ab578cc479c9d307ba10092a.jpg 640w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_8470cece12f02e253bb11fa0c816dd81.jpg 960w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_706ca793841a98824fb735a7a7444c72.jpg 1280w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_6db6bb67c44e5119a3c479af04f9f95c.jpg 1600w
+    "
+    data-sizes="75vw"
+    srcset="
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_245f38c70d4405f674fc05a4f7142724.jpg 320w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_c02a4662ab578cc479c9d307ba10092a.jpg 640w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_8470cece12f02e253bb11fa0c816dd81.jpg 960w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_706ca793841a98824fb735a7a7444c72.jpg 1280w,
+      /images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_6db6bb67c44e5119a3c479af04f9f95c.jpg 1600w
+    "
   >
   <img
-    src="/images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_969769cd7c343d3f9bd0f20af670896d.jpg"
-    width="1680"
-    height="720"
+    src="/images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_245f38c70d4405f674fc05a4f7142724.jpg"
+    data-src="/images/vincent-van-zalinge-XIp7Wna0ua0-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_241522_245f38c70d4405f674fc05a4f7142724.jpg"
+    width="1600"
+    height="900"
     decoding="async"
     fetchpriority="auto"
     loading="lazy"
     alt="A small bird perched on top of a tree branch"
+    class="blur-up ls-is-cached lazyloaded"
   >
 </picture>
 ```
@@ -79,7 +106,7 @@ You can add images to your `.md` pages by using the `picture` shortcode. See the
 ### Remote resource
 
 ```md
-{{</* picture src="https://images.unsplash.com/photo-1699192781399-e2275a9f60b6?q=80&w=1740&auto=format&fit=crop" alt="A small bird perched on top of a pine tree" */>}}
+{{</* picture process="fill 1600x900" src="https://images.unsplash.com/photo-1699192781399-e2275a9f60b6?q=80&w=1740&auto=format&fit=crop" alt="A small bird perched on top of a pine tree" */>}}
 ```
 
-{{< picture src="https://images.unsplash.com/photo-1699192781399-e2275a9f60b6?q=80&w=1740&auto=format&fit=crop" alt="A small bird perched on top of a pine tree" >}}
+{{< picture process="fill 1600x900" src="https://images.unsplash.com/photo-1699192781399-e2275a9f60b6?q=80&w=1740&auto=format&fit=crop" alt="A small bird perched on top of a pine tree" >}}

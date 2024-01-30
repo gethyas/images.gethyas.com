@@ -84,4 +84,8 @@ A string containing a comma-separated list of source size descriptors followed b
 
 ### process
 
-A string containing a Hugo [process](https://gohugo.io/content-management/image-processing/#process) method — for example `fill 1680x720`.
+A string containing a Hugo [process](https://gohugo.io/content-management/image-processing/#process) method — for example `fill 1600x900`.
+
+### lqip
+
+A string containing a Hugo [resize](https://gohugo.io/content-management/image-processing/#resize) method — for example `16x webp q20`.

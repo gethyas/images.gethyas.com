@@ -26,13 +26,17 @@ You can add images to your `.md` pages by using the `figure` shortcode. See the 
 
 ```md
 {{</* figure
+  process="fill 2100x900"
+  lqip="21x webp q20"
+  loading="eager"
+  fetchpriority="high" 
   src="vincent-van-zalinge-e5VzJJDODbQ-unsplash.jpg"
   alt="A yellow and black bird sitting on top of a body of water"
   caption="A yellow and black bird sitting on top of a body of water. Photo by Vincent van Zalinge"
 */>}}
 ```
 
-{{< figure src="vincent-van-zalinge-e5VzJJDODbQ-unsplash.jpg" alt="A yellow and black bird sitting on top of a body of water" caption="A yellow and black bird sitting on top of a body of water. Photo by Vincent van Zalinge" >}}
+{{< figure process="fill 2100x900" lqip="21x webp q20" loading="eager" fetchpriority="high" src="vincent-van-zalinge-e5VzJJDODbQ-unsplash.jpg" alt="A yellow and black bird sitting on top of a body of water" caption="A yellow and black bird sitting on top of a body of water. Photo by Vincent van Zalinge" >}}
 
 #### Rendered HTML
 
@@ -40,22 +44,33 @@ You can add images to your `.md` pages by using the `figure` shortcode. See the 
 <figure>
   <img
     srcset="
-      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_480x0_resize_q85_h2_lanczos.webp 480w,
-      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_576x0_resize_q85_h2_lanczos.webp 576w,
-      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_768x0_resize_q85_h2_lanczos.webp 768w,
-      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_1025x0_resize_q85_h2_lanczos.webp 1025w,
-      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_1200x0_resize_q85_h2_lanczos.webp 1200w,
-      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_1440x0_resize_q85_h2_lanczos.webp 1440w,
-      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_1920x0_resize_q85_h2_lanczos.webp 1920w
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_5a17d993911d39eab4c7b885a293418e.webp 480w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_23d19ec40f792d3361d1be135008267b.webp 576w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_f23ec1d631a7d8fac2595529323fbc08.webp 768w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_a15aa8ceb8573d3fb48d8fa243d07c42.webp 1025w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_a18fd0d22800f6dfddea00bec2281c63.webp 1200w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_e3a707aa6a8c6a0d531f2d92a370fcd1.webp 1440w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_13ff401046b3665589186c8927831394.webp 2100w
     "
-    sizes="75vw"
-    src="/docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_480x0_resize_q85_lanczos.jpg"
-    width="1920"
-    height="1280"
+    data-srcset="
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_5a17d993911d39eab4c7b885a293418e.webp 480w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_23d19ec40f792d3361d1be135008267b.webp 576w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_f23ec1d631a7d8fac2595529323fbc08.webp 768w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_a15aa8ceb8573d3fb48d8fa243d07c42.webp 1025w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_a18fd0d22800f6dfddea00bec2281c63.webp 1200w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_e3a707aa6a8c6a0d531f2d92a370fcd1.webp 1440w,
+      /docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_13ff401046b3665589186c8927831394.webp 2100w
+    "
+    data-sizes="auto"
+    src="/docs/shortcodes/figure/vincent-van-zalinge-e5VzJJDODbQ-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_162847_d59446c4f99a4c9fbb5339fae96cf2c7.jpg"
+    width="2100"
+    height="900"
     decoding="async"
-    fetchpriority="auto"
-    loading="lazy"
+    fetchpriority="high"
+    loading="eager"
     alt="A yellow and black bird sitting on top of a body of water"
+    class="blur-up lazyautosizes ls-is-cached lazyloaded"
+    sizes="642px"
   >
   <figcaption>
     A yellow and black bird sitting on top of a body of water. Photo by Vincent van Zalinge
@@ -67,22 +82,24 @@ You can add images to your `.md` pages by using the `figure` shortcode. See the 
 
 ```md
 {{</* figure
+  process="fill 1600x900"
   src="images/vincent-van-zalinge-XIp7Wna0ua0-unsplash.jpg"
   alt="A small bird perched on top of a tree branch"
   caption="A small bird perched on top of a tree branch. Photo by Vincent van Zalinge"
 */>}}
 ```
 
-{{< figure src="images/vincent-van-zalinge-XIp7Wna0ua0-unsplash.jpg" alt="A small bird perched on top of a tree branch" caption="A small bird perched on top of a tree branch. Photo by Vincent van Zalinge" >}}
+{{< figure process="fill 1600x900" src="images/vincent-van-zalinge-XIp7Wna0ua0-unsplash.jpg" alt="A small bird perched on top of a tree branch" caption="A small bird perched on top of a tree branch. Photo by Vincent van Zalinge" >}}
 
 ### Remote resource
 
 ```md
 {{</* figure
+  process="fill 1600x900"
   src="images/vincent-van-zalinge-XIp7Wna0ua0-unsplash.jpg"
   alt="A small bird perched on top of a pine tree"
   caption="A small bird perched on top of a pine tree. Photo by Vincent van Zalinge"
 */>}}
 ```
 
-{{< figure src="https://images.unsplash.com/photo-1699192781399-e2275a9f60b6?q=80&w=1740&auto=format&fit=crop" alt="A small bird perched on top of a pine tree" caption="A small bird perched on top of a pine tree. Photo by Vincent van Zalinge" >}}
+{{< figure process="fill 1600x900" src="https://images.unsplash.com/photo-1699192781399-e2275a9f60b6?q=80&w=1740&auto=format&fit=crop" alt="A small bird perched on top of a pine tree" caption="A small bird perched on top of a pine tree. Photo by Vincent van Zalinge" >}}

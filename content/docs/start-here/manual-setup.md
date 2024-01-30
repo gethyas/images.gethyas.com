@@ -92,8 +92,9 @@ Add the following [parameters](/docs/reference/configuration/#parameters) to `./
     fetchpriority = "auto" # high, low, or auto (default) 
     loading = "lazy" # eager or lazy (default)
     widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
-    sizes = "75vw" # 100vw (default), 75vw, or auto for example
-    process = "" # "fill 1680x720" for example
+    sizes = "auto" # 100vw (default), 75vw, or auto for example
+    process = "" # "fill 1600x900" or "fill 2100x900" for example
+    lqip = "16x webp q20" # "16x webp q20" or "21x webp q20" for example
 ```
 
 #### Set processing options
@@ -123,11 +124,38 @@ img, picture {
   font-size: 0;
 }
 
+img[data-sizes="auto"] {
+  display: block; 
+}
+
+.blur-up {
+  filter: blur(5px);
+  transition: filter 400ms;
+}
+
+.blur-up.lazyloaded {
+  filter: unset;
+}
+
 figcaption {
   font-size: 1rem;
   margin-top: 0.5rem;
   font-style: italic;
 }
+```
+
+#### Update PostCSS settings
+
+Add CSS class selectors to `safelist` in `./config/postcss.config.js`:
+
+```js
+..
+      safelist: [
+        'img-fluid',
+        'lazyloaded',
+        'blur-up',
+      ],
+..
 ```
 
 ### Add images
