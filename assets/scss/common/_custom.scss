@@ -1,16 +1,24 @@
 // Put your custom SCSS code here
-
 .navbar-brand svg {
-  width: 100px;
+  width: 70px;
   height: 100%;
   margin-right: 0;
 }
 
 @include media-breakpoint-up(lg) {
+  .navbar-brand {
+    margin-right: 0 !important;
+  }
+
   .navbar-brand svg {
-    width: 110px;
+    width: 80px;
     height: 100%;
   }
+}
+
+.vr {
+  height: 2.5rem;
+  align-self: center;
 }
 
 .section-hero {
