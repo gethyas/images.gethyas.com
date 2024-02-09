@@ -1,5 +1,6 @@
 # Hugo
-title = "My Docs"
+title = "Hyas"
+subTitle = "Images"
 description = "Congrats on setting up a new Doks project!"
 images = ["cover.png"]
 

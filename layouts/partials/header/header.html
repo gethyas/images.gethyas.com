@@ -23,7 +23,7 @@
       {{ partial "inline-svg" (dict "src" "svgs/logos/hyas-logo-semibold-wide.svg" "width" "80px" "height" "100%" "class" "svg-inline-custom svg-monochrome") }}
     </a>
     <div class="vr mx-lg-3 d-none d-lg-block"></div>
-    <span class="navbar-text fs-5 d-none d-lg-block ms-lg-0 me-lg-3">Images</span>
+    <span class="navbar-text fs-5 d-none d-lg-block ms-lg-0 me-lg-3">{{ site.Params.subTitle }}</span>
 
     <!-- FlexSearch mobile -->
     {{ partial "main/showFlexSearch" . }}
