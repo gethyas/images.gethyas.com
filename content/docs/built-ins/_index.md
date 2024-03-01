@@ -11,6 +11,8 @@ menu:
     identifier: "built-ins-3bda3980cac72b7dc1d0e54d6e47f923"
 weight: 600
 toc: true
+sidebar:
+  collapsed: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)

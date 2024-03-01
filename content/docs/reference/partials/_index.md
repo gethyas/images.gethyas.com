@@ -11,6 +11,8 @@ menu:
     identifier: "partials-7fd51cf8d0d8898dd7008abf0248c413"
 weight: 930
 toc: true
+sidebar:
+  collapsed: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
