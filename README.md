@@ -1,1 +1,1 @@
-# images.gethyas.com
+# images.thulite.io

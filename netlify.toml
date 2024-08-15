@@ -3,17 +3,18 @@
   functions = "functions"
 
 [build.environment]
-  NODE_VERSION = "18.16.1"
-  NPM_VERSION = "9.5.1"
+  NODE_VERSION = "20.11.0"
+  NPM_VERSION = "10.2.4"
+  HUGO_VERSION = "0.125.1"
 
 [context.production]
   command = "pnpm build"
 
 [context.deploy-preview]
-  command = "pnpm build -- -b $DEPLOY_PRIME_URL"
+  command = "pnpm build"
 
 [context.branch-deploy]
-  command = "pnpm build -- -b $DEPLOY_PRIME_URL"
+  command = "pnpm build"
 
 [context.next]
   command = "pnpm build"
@@ -30,6 +31,11 @@
   autoLaunch = false
 
 # Redirects and rewrites — https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
+[[redirects]]
+  from = "https://images.gethyas.com/*"
+  to = "https://images.thulite.io/:splat"
+  status = 301
+  force = true
 
 # Custom headers — https://docs.netlify.com/routing/headers/#syntax-for-the-netlify-configuration-file
 [[headers]]
