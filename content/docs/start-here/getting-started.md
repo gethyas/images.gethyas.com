@@ -18,11 +18,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Images is the official images integration for the [Hyas](https://gethyas.com/) framework. This guide will help you get started with Images already installed. See the [manual setup instructions](/docs/start-here/manual-setup/) to add Images to an existing Hyas project.
+Images is the official images integration for the [Thulite](https://thulite.io/) framework. This guide will help you get started with Images already installed. See the [manual setup instructions](/docs/start-here/manual-setup/) to add Images to an existing Thulite project.
 
 ## Quick start
 
-To follow this guide, you'll need an existing Hyas project with Images installed.
+To follow this guide, you'll need an existing Thulite project with Images installed.
 
 ### Check if Images is installed
 
@@ -69,7 +69,7 @@ Images is installed and it's time to add some images!
 
 ## Updating Images
 
-Images is a Hyas integration, and is updated like any `@hyas/*` integration (or theme):
+Images is a Thulite integration, and is updated like any `@hyas/*` integration (or theme):
 
 {{< tabs "update-images" >}}
 {{< tab "npm" >}}
@@ -101,9 +101,9 @@ See the [Images changelog](https://github.com/gethyas/images/blob/main/CHANGELOG
 
 Use the [project configuration](/docs/reference/configuration/), shortcodes (["img"](/docs/reference/shortcodes/img/), ["picture"](/docs/reference/shortcodes/picture/), and ["figure"](/docs/reference/shortcodes/figure/)), and partials (["img"](/docs/reference/partials/img/), ["picture"](/docs/reference/partials/picture/), and ["figure"](/docs/reference/partials/figure/)) reference pages to ensure that images is configured and functioning properly. See the guides in the sidebar for help storing images and customizing your Images setup.
 
-If your answer cannot be found in these docs, please visit the [full Hyas Docs](https://docs.gethyas.com/) for complete Hyas documentation. Your question may be answered by understanding how Hyas works in general, underneath this Images integration.
+If your answer cannot be found in these docs, please visit the [full Thulite Docs](https://docs.thulite.io/) for complete Thulite documentation. Your question may be answered by understanding how Thulite works in general, underneath this Images integration.
 
-You can also check for any known [Images issues on GitHub](https://github.com/gethyas/images/issues), and get help in [Hyas Discussions](https://github.com/gethyas/hyas/discussions) from our active, friendly community!
+You can also check for any known [Images issues on GitHub](https://github.com/gethyas/images/issues), and get help in [Thulite Discussions](https://github.com/gethyas/hyas/discussions) from our active, friendly community!
 
 ## Credits
 

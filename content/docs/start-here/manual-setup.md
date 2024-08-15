@@ -18,15 +18,15 @@ seo:
   noindex: false # false (default) or true
 ---
 
-The quickest way to get started with Images is using a Hyas theme with [Images already installed](/docs/start-here/getting-started/#check-if-images-is-installed). If you want to add Images to an existing Hyas project, this guide will explain how.
+The quickest way to get started with Images is using a Thulite theme with [Images already installed](/docs/start-here/getting-started/#check-if-images-is-installed). If you want to add Images to an existing Thulite project, this guide will explain how.
 
 ## Set up Images
 
-To follow this guide, you'll need an existing Hyas project.
+To follow this guide, you'll need an existing Thulite project.
 
 ### Add the Images integration
 
-Images is a [Hyas integration](https://docs.gethyas.com/guides/integrations/). Add it to your site by running the following command in your project's root directory:
+Images is a [Thulite integration](https://docs.thulite.io/guides/integrations/). Add it to your site by running the following command in your project's root directory:
 
 {{< tabs "install-images" >}}
 {{< tab "npm" >}}
@@ -89,7 +89,7 @@ Add the following [parameters](/docs/reference/configuration/#parameters) to `./
 [hyas_images]
   [hyas_images.defaults]
     decoding = "async" # sync, async, or auto (default)
-    fetchpriority = "auto" # high, low, or auto (default) 
+    fetchpriority = "auto" # high, low, or auto (default)
     loading = "lazy" # eager or lazy (default)
     widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
     sizes = "auto" # 100vw (default), 75vw, or auto for example
@@ -125,7 +125,7 @@ img, picture {
 }
 
 img[data-sizes="auto"] {
-  display: block; 
+  display: block;
 }
 
 .blur-up {
