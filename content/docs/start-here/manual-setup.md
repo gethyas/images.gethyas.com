@@ -32,21 +32,21 @@ Images is a [Thulite integration](https://docs.thulite.io/guides/integrations/).
 {{< tab "npm" >}}
 
 ```bash
-npm install @hyas/images@latest
+npm install @thulite/images@latest
 ```
 
 {{< /tab >}}
 {{< tab "pnpm" >}}
 
 ```bash
-pnpm install @hyas/images@latest
+pnpm install @thulite/images@latest
 ```
 
 {{< /tab >}}
 {{< tab "Yarn" >}}
 
 ```bash
-yarn add @hyas/images@latest
+yarn add @thulite/images@latest
 ```
 
 {{< /tab >}}
@@ -63,7 +63,7 @@ Add mounts to `./config/_default/module.toml`:
 ```toml {title=module.toml}
 ## assets
 [[mounts]]
-  source = "node_modules/@hyas/images/assets"
+  source = "node_modules/@thulite/images/assets"
   target = "assets"
 
 [[mounts]]
@@ -72,7 +72,7 @@ Add mounts to `./config/_default/module.toml`:
 
 ## layouts
 [[mounts]]
-  source = "node_modules/@hyas/images/layouts"
+  source = "node_modules/@thulite/images/layouts"
   target = "layouts"
 
 [[mounts]]
@@ -85,9 +85,9 @@ Add mounts to `./config/_default/module.toml`:
 Add the following [parameters](/docs/reference/configuration/#parameters) to `./config/_default/params.toml`:
 
 ```toml {title=params.toml}
-# Images (@hyas/images)
-[hyas_images]
-  [hyas_images.defaults]
+# Images (@thulite/images)
+[thulite_images]
+  [thulite_images.defaults]
     decoding = "async" # sync, async, or auto (default)
     fetchpriority = "auto" # high, low, or auto (default)
     loading = "lazy" # eager or lazy (default)

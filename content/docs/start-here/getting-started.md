@@ -32,21 +32,21 @@ Check if Images is installed by running the following command in your project's 
 {{< tab "npm" >}}
 
 ```bash
-npm list @hyas/images
+npm list @thulite/images
 ```
 
 {{< /tab >}}
 {{< tab "pnpm" >}}
 
 ```bash
-pnpm list @hyas/images --depth 1
+pnpm list @thulite/images --depth 1
 ```
 
 {{< /tab >}}
 {{< tab "Yarn" >}}
 
 ```bash
-yarn list @hyas/images --depth=1
+yarn list @thulite/images --depth=1
 ```
 
 {{< /tab >}}
@@ -69,33 +69,33 @@ Images is installed and it's time to add some images!
 
 ## Updating Images
 
-Images is a Thulite integration, and is updated like any `@hyas/*` integration (or theme):
+Images is a Thulite integration, and is updated like any `@thulite/*` integration (or theme):
 
 {{< tabs "update-images" >}}
 {{< tab "npm" >}}
 
 ```bash
-npm install @hyas/images@latest
+npm install @thulite/images@latest
 ```
 
 {{< /tab >}}
 {{< tab "pnpm" >}}
 
 ```bash
-pnpm upgrade @hyas/images --latest
+pnpm upgrade @thulite/images --latest
 ```
 
 {{< /tab >}}
 {{< tab "Yarn" >}}
 
 ```bash
-yarn upgrade @hyas/images --latest
+yarn upgrade @thulite/images --latest
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
 
-See the [Images changelog](https://github.com/gethyas/images/blob/main/CHANGELOG.md) for a full list of the changes made in each release.
+See the [Images changelog](https://github.com/thuliteio/images/blob/main/CHANGELOG.md) for a full list of the changes made in each release.
 
 ## Troubleshooting Images
 
@@ -103,7 +103,7 @@ Use the [project configuration](/docs/reference/configuration/), shortcodes (["i
 
 If your answer cannot be found in these docs, please visit the [full Thulite Docs](https://docs.thulite.io/) for complete Thulite documentation. Your question may be answered by understanding how Thulite works in general, underneath this Images integration.
 
-You can also check for any known [Images issues on GitHub](https://github.com/gethyas/images/issues), and get help in [Thulite Discussions](https://github.com/gethyas/hyas/discussions) from our active, friendly community!
+You can also check for any known [Images issues on GitHub](https://github.com/thuliteio/images/issues), and get help in [Thulite Discussions](https://github.com/orgs/thuliteio/discussions) from our active, friendly community!
 
 ## Credits
 

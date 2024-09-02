@@ -21,7 +21,7 @@ seo:
 [Spotlight](https://github.com/nextapps-de/spotlight) is web's most easy to integrate lightbox gallery library. Super-lightweight, outstanding performance, no dependencies.
 
 {{< callout context="caution" icon="alert-triangle" >}}
-You will need `@hyas/images` 2.1.x or newer. [Check your version](/docs/start-here/getting-started/#check-if-images-is-installed).
+You will need `@thulite/images` 2.1.x or newer. [Check your version](/docs/start-here/getting-started/#check-if-images-is-installed).
 {{< /callout >}}
 
 ## To Do

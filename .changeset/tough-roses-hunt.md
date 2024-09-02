@@ -1,5 +1,5 @@
 ---
-"images.gethyas.com": minor
+"images.thulite.io": minor
 ---
 
 Update for Thulite
