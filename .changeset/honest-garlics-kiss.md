@@ -1,5 +1,5 @@
 ---
-"images.gethyas.com": minor
+"images.thulite.io": minor
 ---
 
 Upgrade to Thulite v2
